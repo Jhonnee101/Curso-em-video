@@ -1,0 +1,5 @@
+times = ('Botafogo','Palmeiras','Flamengo','Fluminense','Grêmio','Athletico-PR','Red Bull Bragantino','Fortaleza','Cuiabá','São Paulo','Atlético-MG','Cruzeiro','Inter','Corinthians','Goiás','Bahia','Santos','Vasco','Coritiba','América-MG')
+print(f"Os 5 primeiros times sao:",times[0:5])
+print(f"Os ultimos 5 times sao:",times[-5:20])
+print(f"Os times foram separados em ordem alfabetica. ",sorted(times))
+print(f"O time Sao Paulo esta em ",times.index("São Paulo")," lugar")
